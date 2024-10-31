@@ -6,7 +6,7 @@ from md2tgmd import escape
 from .config import BOT_TOKEN, defaut_photo_caption, send_message_log, send_photo_log, unnamed_user, unnamed_group
 from .printLog import send_log
 
-TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
+TELEGRAM_API = f"https://api.telegram.org/bot{AIzaSyAUDUViLX4JbUyXaf_F2XbPtheiIKNKzqk}"
 
 
 def send_message(chat_id, text, **kwargs):
